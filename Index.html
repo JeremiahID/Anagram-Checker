@@ -10,23 +10,21 @@
     
     <h1 class="appName">📖 Anagram Checker</h1>
     <main>
-        <label for="favchap">Enter Fisrt Word: </label>
+        <label for="fisrtWord">Enter Fisrt Word: </label>
         <input type="text" id="wordOne" placeholder="Enter Word">
-        <label for="favchap">Enter Fisrt Word: </label>
-        <input type="text" id="wordOne" placeholder="Enter Word">
-        <button type="submit" >Check Words</button>
-        <ul id="list"></ul>
+        <label for="secondWord">Enter Fisrt Word: </label>
+        <input type="text" id="wordTwo" placeholder="Enter Word">
+        <button type="submit"  id="wordChecker">Check Words</button>
 
-        <!-- <p id="errorMsg">Please Enter  a Book and Chapter </p> -->
+        <!-- a list to show us the word and state if it's an Anagram -->
+        <ul id="list">
+
+        </ul>
+        <!-- Error message for the empty string -->
+        <p id="errorMsg">Fill up the empty fields </p>
     </main>
 
     <!-- this is the container for displaying the searched Verse -->
-    <div class="displayVerse" id="viewVerse">
-            
-    </div>
-
-
-
 
     <script src="/Js/app.js"></script>
 </body>

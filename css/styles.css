@@ -31,7 +31,8 @@ main {
 }
 
 .appName{
-    color:#DFD887; ;
+    color:#DFD887; 
+	text-transform: uppercase;
 }
 
 input{
@@ -43,25 +44,27 @@ input{
 input,
 button {
 	padding: 0.5rem;
-}
-
-button,input {
 	margin: 0.5rem;
 }
 
 button{
 	cursor: pointer;
-    background-color: #052C2E;
+    background-color: #082223f2;
     border: 0;
     color: #DFD887;
     font-family: Poppins;
 }
 
 button:hover{
-    
+	transition: all .5s ease-in 0s;
+	background-color: #052C2E;
+
 }
 
-.input {
-	display: flex;
-	gap: 1rem;
+#errorMsg{
+	display: none;
+	text-transform: lowercase;
+	color: #052c2e8f;
+
 }
+

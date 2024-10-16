@@ -1,9 +1,27 @@
+const FisrtWord = document.querySelector('#wordOne');
+const SecondWord = document.querySelector('#wordTwo');
+const WordChecker = document.querySelector('#wordChecker');
+const ErrorMsg = document.querySelector('#errorMsg');
+
+WordChecker.addEventListener('click', ()=>{
+
+  // error mesage for empty fields
+  if(FisrtWord.value === '' || SecondWord.value === ''){
+    ErrorMsg.style.display = "block";
+
+  } else {
+    ErrorMsg.style.display = "none";
+  }
+
+  //
+  const cleanString = (str) =>
+    str.replace(/[^\w]/g, '').toLowerCase().split('').sort().join('');
 
 
+  //
 
 
-
-
+})
 
 
 /*
