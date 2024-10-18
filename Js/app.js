@@ -21,7 +21,6 @@ WordChecker.addEventListener('click', ()=>{
 
       // Compare the cleaned strings
       return cleanString(str1) === cleanString(str2);
-
  
     }
 
