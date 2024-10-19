@@ -14,8 +14,8 @@ const string2 = prompt("Enter the second string:");
 
 // Check if the inputs are anagrams
 if (areAnagrams(string1, string2)) {
-alert("The two strings are anagrams!");
+  alert("The two strings are anagrams!");
 } else {
-alert("The two strings are NOT anagrams.");
+  alert("The two strings are NOT anagrams.");
 }
   
